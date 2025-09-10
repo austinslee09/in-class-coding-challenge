@@ -1,5 +1,5 @@
 const inventory={
- {name:"cow",
+ name:"cow",
   sku:"sku-234",
   price:"1.99",
  stock:"12"
