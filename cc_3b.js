@@ -1,6 +1,6 @@
 const inventory={
  {name:"cow",
-  sku:"sku-234',
+  sku:"sku-234",
   price:"1.99",
  stock:"12"
   }
@@ -24,4 +24,8 @@ stock:"9"
 
 inventory.forEach(obj => console.log (`Name: ${Object.name}` | `Sku: ${Object.sku}` | `price: ${Object.price}` | `stock: ${Object.stock}`);
 
-inventory.push
+Obj2={sku:"125", name:"mouse", price:".99"}
+inventory.push(Obj2)
+console.log(inventory)
+
+
