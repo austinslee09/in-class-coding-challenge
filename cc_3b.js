@@ -22,4 +22,6 @@ stock:"9"
 }
 };
 
-inventory.forEach(obj => console.log (`Name: ${Object.name}` | `Sku: ${Object.sku}` | `price: ${}`);
+inventory.forEach(obj => console.log (`Name: ${Object.name}` | `Sku: ${Object.sku}` | `price: ${Object.price}` | `stock: ${Object.stock}`);
+
+inventory.push
