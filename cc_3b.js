@@ -19,7 +19,6 @@ stock:"9"
  sku:"sku-905"
  price:"8.92"
  stock:"89"
-}
 };
 
 inventory.forEach(obj => console.log (`Name: ${Object.name}` | `Sku: ${Object.sku}` | `price: ${Object.price}` | `stock: ${Object.stock}`));
