@@ -22,7 +22,7 @@ stock:"9"
 }
 };
 
-inventory.forEach(obj => console.log (`Name: ${Object.name}` | `Sku: ${Object.sku}` | `price: ${Object.price}` | `stock: ${Object.stock}`);
+inventory.forEach(obj => console.log (`Name: ${Object.name}` | `Sku: ${Object.sku}` | `price: ${Object.price}` | `stock: ${Object.stock}`));
 
 Obj2={sku:"125", name:"mouse", price:".99"}
 inventory.push(Obj2)
